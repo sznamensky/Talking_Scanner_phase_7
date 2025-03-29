@@ -10,5 +10,5 @@ Copy the test pattern pictures to the calibration directory.
 Copy the calibration script to the calibration directory (calibrate_camera_v2_2.py).
 Enter the calibration directory and run the script (python calibrate_camera_2_2.py > results.txt).
 See your camera calibration results in results.txt file.
-Now enter the camera calibration results values (camera matrix and distorsion coef.) to the camera distorsion compensation script (undistort_picture_v2_3.py).
+Now enter the camera calibration results values (camera matrix and distorsion coef.) to the camera distorsion compensation script (you need to replace valies in undistort_picture_v2_3.py).
 Take some pictures with your camera and test the camera distorsion compensation script (python undistort_picture_v2_3.py <your picture name.jpg>). You get results in <your picture name>.png. (See some examples in Testimage.jpg Testimage_undistorted.png).
