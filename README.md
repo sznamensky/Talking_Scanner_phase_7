@@ -12,3 +12,4 @@ Enter the calibration directory and run the script (python calibrate_camera_2_2.
 See your camera calibration results in results.txt file.
 Now enter the camera calibration results values (camera matrix and distorsion coef.) to the camera distorsion compensation script (you need to replace values in undistort_picture_v2_3.py).
 Take some pictures with your camera and test the camera distorsion compensation script (python undistort_picture_v2_3.py <your picture name.jpg>). You get results in <your picture name>.png. (See some examples in Testimage.jpg Testimage_undistorted.png).
+Added the program <takepic_undist_preproc_ocr_v1_2_L2.py> that takes left page scan with camera 2, undistorts scanned image, rotates image 90 degrees, saves scanned image to file, performs OCR, saves OCR results to text file.
